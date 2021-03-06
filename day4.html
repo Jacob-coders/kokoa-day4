@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jacob-Day4</title>
+</head>
+<body>
+    <h1>Create An Account</h1>
+    <form>
+        <label for="first">First name</label>
+        <input id="first" required type="text" placeholder="First name"/>
+        <br/>
+        <label for="last">Last name</label>
+        <input id="last" required type="text" placeholder="Last name"/>
+        <br/>
+        <label for="email">Email</label>
+        <input id="email" required type="email" placeholder="Email"/>
+        <br/>
+        <label for="user">Username</label>
+        <input id="user" required type="text" placeholder="Username"/>
+        <br/>
+        <label for="password">Password</label>
+        <input id="password" required type="password" minlength="10" placeholder="Password"/>
+        <br/>
+        <label for="date">Birth date</label>
+        <input id="date" required type="date"/>
+        <br/>
+        <label for="happy">How happy are you?</label>
+        <input id="happy" required type="range" min="0" max="10" list="marks"/>
+        <br/>
+        <label for="color">What is your fav, color?</label>
+        <input id="color" required type="color"/>
+        <br/>
+        <input type="submit" value="Create Account"/>
+    </form>
+    <datalist id="marks">
+        <option value="0"></option>
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        <option value="6"></option>
+        <option value="7"></option>
+        <option value="8"></option>
+        <option value="9"></option>
+        <option value="10"></option>
+    </datalist>
+</body>
+</html>
